@@ -1,2 +1,21 @@
 /* font chữ mặc định  */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* tạo các biến mặc định  */
+:root {
+  /*  các mã màu  */
+  --color-one: #8261ee;
+  --color-two: #ff589e;
+  --color-text: #1e1e1e;
+  --color-bg-1: #ffffff;
+  --color-bg-2: #f2f2fe;
+
+  /* font chữ */
+  --font: "Raleway", sans-serif;
+}
+
+body {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-family: var(--font);
+}
