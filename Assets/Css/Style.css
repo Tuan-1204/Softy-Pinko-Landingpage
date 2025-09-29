@@ -118,7 +118,7 @@
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .section-two .inner-box .inner-desc {
@@ -127,3 +127,30 @@
 }
 
 /* end section-2 */
+
+/* section-3 */
+.section-three {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.section-three .inner-image {
+  text-align: center;
+}
+
+.section-three .inner-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-three .inner-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.section-three .inner-border-bottom {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+/* end section-3 */
